@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://subham-04.github.io/file-hash-checker/sitemap.xml
+Sitemap: https://subham-04.github.io/file-hash-checker-site/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
