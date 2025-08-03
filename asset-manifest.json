@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/file-hash-checker/static/css/main.e6c13ad2.css",
+    "main.js": "/file-hash-checker/static/js/main.c2ff04e6.js",
+    "static/js/453.9a1e7cb7.chunk.js": "/file-hash-checker/static/js/453.9a1e7cb7.chunk.js",
+    "index.html": "/file-hash-checker/index.html",
+    "main.e6c13ad2.css.map": "/file-hash-checker/static/css/main.e6c13ad2.css.map",
+    "main.c2ff04e6.js.map": "/file-hash-checker/static/js/main.c2ff04e6.js.map",
+    "453.9a1e7cb7.chunk.js.map": "/file-hash-checker/static/js/453.9a1e7cb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c2ff04e6.js"
+  ]
+}
