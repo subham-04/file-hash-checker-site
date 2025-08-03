@@ -6,11 +6,11 @@ const StructuredData = () => {
     "@graph": [
       {
         "@type": "WebApplication",
-        "@id": "https://subham-04.github.io/file-hash-checker/#webapp",
+        "@id": "https://subham-04.github.io/file-hash-checker-site/#webapp",
         "name": "File Hash Checker",
         "alternateName": "Hash Calculator",
         "description": "Free file hash verification tool with MD5, SHA1, SHA256 algorithms and VirusTotal integration for malware scanning",
-        "url": "https://subham-04.github.io/file-hash-checker",
+        "url": "https://subham-04.github.io/file-hash-checker-site",
         "applicationCategory": "SecurityApplication",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript",
@@ -37,13 +37,13 @@ const StructuredData = () => {
       },
       {
         "@type": "SoftwareApplication",
-        "@id": "https://subham-04.github.io/file-hash-checker/#desktop-app",
+        "@id": "https://subham-04.github.io/file-hash-checker-site/#desktop-app",
         "name": "File Hash Calculator Desktop",
         "applicationCategory": "SecurityApplication",
         "operatingSystem": ["Windows", "macOS", "Linux"],
         "programmingLanguage": "Python",
         "runtimePlatform": "Python 3.7+",
-        "downloadUrl": "https://subham-04.github.io/file-hash-checker/File_Hash_Calculator.py",
+        "downloadUrl": "https://subham-04.github.io/file-hash-checker-site/File_Hash_Calculator.py",
         "fileFormat": ".py",
         "description": "Python desktop application for file hash calculation with tkinter GUI",
         "creator": {
@@ -59,8 +59,8 @@ const StructuredData = () => {
       },
       {
         "@type": "WebSite",
-        "@id": "https://subham-04.github.io/file-hash-checker/#website",
-        "url": "https://subham-04.github.io/file-hash-checker",
+        "@id": "https://subham-04.github.io/file-hash-checker-site/#website",
+        "url": "https://subham-04.github.io/file-hash-checker-site",
         "name": "File Hash Checker",
         "description": "Free online file hash verification and malware scanning tool",
         "publisher": {
@@ -70,20 +70,20 @@ const StructuredData = () => {
         },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://subham-04.github.io/file-hash-checker/?q={search_term_string}",
+          "target": "https://subham-04.github.io/file-hash-checker-site/?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       },
       {
         "@type": "Organization",
-        "@id": "https://subham-04.github.io/file-hash-checker/#organization",
+        "@id": "https://subham-04.github.io/file-hash-checker-site/#organization",
         "name": "File Hash Checker",
-        "url": "https://subham-04.github.io/file-hash-checker",
-        "logo": "https://subham-04.github.io/file-hash-checker/logo512.png",
+        "url": "https://subham-04.github.io/file-hash-checker-site",
+        "logo": "https://subham-04.github.io/file-hash-checker-site/logo512.png",
         "foundingDate": "2025",
         "description": "Open source file hash verification and security tools",
         "sameAs": [
-          "https://github.com/subham-04/file-hash-checker"
+          "https://github.com/subham-04/file-hash-checker-site"
         ]
       }
     ]

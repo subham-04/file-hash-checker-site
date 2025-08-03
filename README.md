@@ -14,7 +14,7 @@ A modern, web-based file hash verification tool built with React and Chakra UI. 
 
 ## 🌐 Live Demo
 
-Visit the live application: [File Hash Checker](https://subham-04.github.io/file-hash-checker)
+Visit the live application: [File Hash Checker](https://subham-04.github.io/file-hash-checker-site)
 
 ## 📦 Installation
 
@@ -22,8 +22,8 @@ Visit the live application: [File Hash Checker](https://subham-04.github.io/file
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/subham-04/file-hash-checker.git
-cd file-hash-checker
+git clone https://github.com/subham-04/file-hash-checker-site.git
+cd file-hash-checker-site
 ```
 
 2. Install dependencies:

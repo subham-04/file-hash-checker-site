@@ -6,7 +6,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://subham-04.github.io/file-hash-checker/</loc>
+    <loc>https://subham-04.github.io/file-hash-checker-site/</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- Installation Guide -->
   <url>
-    <loc>https://subham-04.github.io/file-hash-checker/#installation</loc>
+    <loc>https://subham-04.github.io/file-hash-checker-site/#installation</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,7 +22,7 @@
 
   <!-- Privacy Policy -->
   <url>
-    <loc>https://subham-04.github.io/file-hash-checker/#privacy</loc>
+    <loc>https://subham-04.github.io/file-hash-checker-site/#privacy</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -30,7 +30,7 @@
 
   <!-- Python Desktop App Download -->
   <url>
-    <loc>https://subham-04.github.io/file-hash-checker/File_Hash_Calculator.py</loc>
+    <loc>https://subham-04.github.io/file-hash-checker-site/File_Hash_Calculator.py</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

@@ -2,7 +2,7 @@
   "name": "file-hash-checker",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://subham-04.github.io/file-hash-checker",
+  "homepage": "https://subham-04.github.io/file-hash-checker-site",
   "dependencies": {
     "@chakra-ui/react": "^3.24.0",
     "@emotion/react": "^11.14.0",
