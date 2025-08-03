@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Hash Checker",
+  "name": "File Hash Checker - MD5 SHA1 SHA256 Calculator",
+  "description": "Free file hash calculator with VirusTotal integration for secure file verification",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1a202c",
+  "background_color": "#1a202c",
+  "categories": ["utilities", "security", "productivity"],
+  "lang": "en",
+  "orientation": "portrait-primary"
 }

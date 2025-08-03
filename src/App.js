@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Box, 
   Container, 
@@ -17,6 +17,7 @@ import { Card } from './components/ui/card';
 import InstallationGuide from './InstallationGuide';
 import PrivacyPolicy from './PrivacyPolicy';
 import Breadcrumb from './components/Breadcrumb';
+import StructuredData from './components/StructuredData';
 import { 
   FiShield, 
   FiHash, 
@@ -125,6 +126,29 @@ function App() {
     setCurrentPage(page);
   };
 
+  // SEO: Update document title based on current page
+  useEffect(() => {
+    const titles = {
+      home: 'File Hash Checker - Free Hash Calculator & Malware Scanner | MD5 SHA1 SHA256',
+      installation: 'Installation Guide - File Hash Checker | Setup Instructions',
+      privacy: 'Privacy Policy & License - File Hash Checker | Terms of Use'
+    };
+    
+    document.title = titles[currentPage] || titles.home;
+    
+    // Update meta description based on page
+    const descriptions = {
+      home: 'Free file hash calculator with MD5, SHA1, SHA256 algorithms and VirusTotal integration for malware scanning. Download Python desktop app.',
+      installation: 'Step-by-step installation guide for File Hash Checker. Download Python desktop application and setup VirusTotal integration.',
+      privacy: 'Privacy policy and licensing terms for File Hash Checker. Non-commercial use allowed with proper attribution.'
+    };
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', descriptions[currentPage] || descriptions.home);
+    }
+  }, [currentPage]);
+
   if (currentPage === 'installation') {
     return <InstallationGuide onNavigate={navigateToPage} />;
   }
@@ -135,6 +159,7 @@ function App() {
 
   return (
     <Box minH="100vh" bg="bg.canvas">
+      <StructuredData />
       {/* Header */}
       <Box as="header" borderBottomWidth="1px" borderColor="border">
         <Container maxW="7xl" py="4">
